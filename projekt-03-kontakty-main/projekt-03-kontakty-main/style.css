@@ -1,5 +1,5 @@
 /* nejsme vcerejsi, pouzivame moderni box model */
-html { box-sizing: border-box; }
+html { box-sizing: border-box; font-size: 12px;}
 *, :after, :before { box-sizing: inherit; }
 
 body {
@@ -7,4 +7,81 @@ body {
 	font-size: 14px;
 }
 
+
 /* ---------------------------------------------------- */
+/* Koment k úkolu: Přiznám se, že tenhle úkol byl dost 
+divokost - narozdíl od boty, tady dost netušim, jaktože 
+mi to nějak funguje :)) */
+/* ---------------------------------------------------- */
+
+.obsah {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  width: 88%;
+}
+
+.kontejner {
+  display: flex;
+  margin: auto;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.osoba {
+  display: flex;
+  flex-basis: 25%;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  padding: 2rem;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  margin: 2rem 1rem;
+  text-align: center;
+}
+
+.foto {
+  width: 150px;
+  border-radius: 50%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.jmeno {
+  text-align: center;
+}
+
+.popis {
+  height: 30%;
+}
+
+.ikony {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.6rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.ikona1 {
+  content: url('images/icons/linkedin.svg');
+  width: 35px;
+  height: 35px;
+}
+
+.ikona2 {
+  content: url('images/icons/github.svg');
+  width: 35px;
+  height: 35px;
+}
+
+.ikona3 {
+  content: url('images/icons/twitter.svg');
+    width: 35px;
+  height: 35px;
+}
