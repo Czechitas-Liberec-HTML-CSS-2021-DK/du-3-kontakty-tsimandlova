@@ -20,7 +20,7 @@ mi to nějak funguje :)) */
   flex-direction: column;
   width: 88%;
 }
-
+/* zkus si to trochu uprvait, smazat margin */ 
 .kontejner {
   display: flex;
   margin: auto;
@@ -30,7 +30,7 @@ mi to nějak funguje :)) */
   padding-left: 1rem;
   padding-right: 1rem;
 }
-
+/*tady ti pomuze to resit celkovou sirkou*/
 .osoba {
   display: flex;
   flex-basis: 25%;
@@ -59,7 +59,7 @@ mi to nějak funguje :)) */
 .popis {
   height: 30%;
 }
-
+/* tohle se da vyresit bez zvlastni tride, jenom marginem a vystredenim*/
 .ikony {
   display: flex;
   flex-direction: row;
@@ -67,7 +67,7 @@ mi to nějak funguje :)) */
   align-items: center;
   justify-content: center;
 }
-
+/*vsechny ikony maji stejne vlastnosti, a proto staci udelat stejnou tridu a nahrat je jako obrazek */
 .ikona1 {
   content: url('images/icons/linkedin.svg');
   width: 35px;
